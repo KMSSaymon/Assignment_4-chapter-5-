@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8e31d60-2ac0-400c-968c-43982409862d" name="Changes" comment="main branch">
-      <change afterPath="$PROJECT_DIR$/src/LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringSorter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +45,17 @@
     "Application.Grade.executor": "Run",
     "Application.GradeRunner.executor": "Run",
     "Application.LargestNumber.executor": "Run",
+    "Application.StringSorter.executor": "Run",
     "Application.TaxCalculator.executor": "Run",
     "Application.TaxCalculatorRunner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "E.5-17",
+    "git-widget-placeholder": "E.5-18",
     "kotlin-language-version-configured": "true",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LargestNumber">
+  <component name="RunManager" selected="Application.StringSorter">
     <configuration name="CompassDirection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompassDirection" />
       <module name="assignment_4" />
@@ -83,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxCalculatorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TaxCalculatorRunner" />
+    <configuration name="StringSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringSorter" />
       <module name="assignment_4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringSorter" />
         <item itemvalue="Application.LargestNumber" />
         <item itemvalue="Application.GradeRunner" />
         <item itemvalue="Application.CompassDirectionRunner" />
         <item itemvalue="Application.CompassDirection" />
-        <item itemvalue="Application.TaxCalculatorRunner" />
       </list>
     </recent_temporary>
   </component>
