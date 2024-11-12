@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e31d60-2ac0-400c-968c-43982409862d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment_4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompassDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompassDirectionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="b8e31d60-2ac0-400c-968c-43982409862d" name="Changes" comment="get the angle and print out the nearest compass direction">
+      <change afterPath="$PROJECT_DIR$/src/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GradeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +22,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2oiUqtcyiJe9mxtn0t2FgNcJgOG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,14 +44,16 @@
   "keyToString": {
     "Application.CompassDirection.executor": "Run",
     "Application.CompassDirectionRunner.executor": "Run",
+    "Application.Grade.executor": "Run",
+    "Application.GradeRunner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "E.5-13",
     "kotlin-language-version-configured": "true",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CompassDirectionRunner">
+  <component name="RunManager" selected="Application.GradeRunner">
     <configuration name="CompassDirection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompassDirection" />
       <module name="assignment_4" />
@@ -67,8 +68,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GradeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GradeRunner" />
+      <module name="assignment_4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GradeRunner" />
+        <item itemvalue="Application.CompassDirectionRunner" />
+        <item itemvalue="Application.CompassDirection" />
         <item itemvalue="Application.CompassDirectionRunner" />
         <item itemvalue="Application.CompassDirection" />
       </list>
@@ -83,17 +94,57 @@
       <option name="presentableId" value="Default" />
       <updated>1731352083790</updated>
     </task>
+    <task id="LOCAL-00001" summary="get the angle and print out the nearest compass direction">
+      <option name="closed" value="true" />
+      <created>1731358984207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731358984207</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
+    <option name="RECENT_FILTERS">
       <map>
-        <entry key="MAIN">
+        <entry key="Branch">
           <value>
-            <State />
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="E.5-13" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="get the angle and print out the nearest compass direction" />
+    <option name="LAST_COMMIT_MESSAGE" value="get the angle and print out the nearest compass direction" />
   </component>
 </project>
