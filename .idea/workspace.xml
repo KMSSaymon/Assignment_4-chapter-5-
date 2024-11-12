@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e31d60-2ac0-400c-968c-43982409862d" name="Changes" comment="get the angle and print out the nearest compass direction">
-      <change afterPath="$PROJECT_DIR$/src/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GradeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b8e31d60-2ac0-400c-968c-43982409862d" name="Changes" comment="get the angle and print out the nearest compass direction" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="E.5-13" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +44,7 @@
     "Application.GradeRunner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "E.5-13",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
@@ -80,8 +76,8 @@
         <item itemvalue="Application.GradeRunner" />
         <item itemvalue="Application.CompassDirectionRunner" />
         <item itemvalue="Application.CompassDirection" />
+        <item itemvalue="Application.GradeRunner" />
         <item itemvalue="Application.CompassDirectionRunner" />
-        <item itemvalue="Application.CompassDirection" />
       </list>
     </recent_temporary>
   </component>
