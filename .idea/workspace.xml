@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e31d60-2ac0-400c-968c-43982409862d" name="Changes" comment="get the angle and print out the nearest compass direction" />
+    <list default="true" id="b8e31d60-2ac0-400c-968c-43982409862d" name="Changes" comment="main branch">
+      <change afterPath="$PROJECT_DIR$/src/TaxCalculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="E.5-13" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,14 +44,15 @@
     "Application.CompassDirectionRunner.executor": "Run",
     "Application.Grade.executor": "Run",
     "Application.GradeRunner.executor": "Run",
+    "Application.TaxCalculator.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "E.5-15",
     "kotlin-language-version-configured": "true",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GradeRunner">
+  <component name="RunManager" selected="Application.TaxCalculatorRunner">
     <configuration name="CompassDirection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompassDirection" />
       <module name="assignment_4" />
@@ -71,13 +74,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaxCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TaxCalculator" />
+      <module name="assignment_4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxCalculatorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TaxCalculatorRunner" />
+      <module name="assignment_4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaxCalculatorRunner" />
+        <item itemvalue="Application.TaxCalculator" />
         <item itemvalue="Application.GradeRunner" />
         <item itemvalue="Application.CompassDirectionRunner" />
         <item itemvalue="Application.CompassDirection" />
-        <item itemvalue="Application.GradeRunner" />
-        <item itemvalue="Application.CompassDirectionRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731358984207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="main branch">
+      <option name="closed" value="true" />
+      <created>1731404684125</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731404684125</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +166,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="get the angle and print out the nearest compass direction" />
-    <option name="LAST_COMMIT_MESSAGE" value="get the angle and print out the nearest compass direction" />
+    <MESSAGE value="main branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="main branch" />
   </component>
 </project>
